@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import MicrogreensPage from "./pages/Microgreens";
 import MicrogreenDetailPage from "./pages/MicrogreenDetail";
 import BreakfastPage from "./pages/Breakfast";
+import BreakfastDetailPage from "./pages/BreakfastDetail";
 import GalleryPage from "./pages/Gallery";
 import TestimonialsPage from "./pages/Testimonials";
 import BlogPage from "./pages/Blog";
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/microgreens" element={<MicrogreensPage />} />
             <Route path="/microgreens/:id" element={<MicrogreenDetailPage />} />
             <Route path="/breakfast" element={<BreakfastPage />} />
+            <Route path="/breakfast/:id" element={<BreakfastDetailPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="/blog" element={<BlogPage />} />
