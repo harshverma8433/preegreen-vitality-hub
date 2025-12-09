@@ -27,7 +27,7 @@ const footerLinks = {
   ],
   support: [
     { name: "Contact Us", path: "/contact" },
-    { name: "Delivery Info", path: "/contact#delivery" },
+    { name: "Delivery Info", path: "/delivery" },
     { name: "Terms of Service", path: "/terms" },
     { name: "Privacy Policy", path: "/privacy" },
   ],
